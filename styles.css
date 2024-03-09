@@ -1,0 +1,56 @@
+   body {
+    background-color: #8f9cb3;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin: 0;
+    height: 75vh;
+    text-align: center;
+}
+
+    button{
+        width: 25%;
+        height: 30px;        
+        margin: 10px;
+        border-radius: 5px;               
+    }
+
+    .links {
+        display: block;
+        padding: 15px;
+        text-align: left;
+    }
+
+    .links a {
+        display: block; 
+        margin: 10px; 
+    }
+
+    .center-box {
+        max-width: 400px;        
+        min-height: 400px;
+        background-color: #dce4f4;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 0 10px #d74ea4;
+        text-align: center;        
+}
+
+.imagem img {    
+    width: 70%;     
+    align-items: center;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+form {
+    margin: 0;
+    padding: 10px;
+}
+ input {
+    width: 50%;
+    padding: 8px; 
+    
+ }
+
+ 
