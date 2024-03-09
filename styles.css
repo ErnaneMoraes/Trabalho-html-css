@@ -51,7 +51,7 @@ form {
 form label {
     display: block;
     margin-bottom: 8px;
-    font-weight: bold; /* Adiciona negrito ao texto do rótulo */
+    font-weight: bold; 
 }
  input {
     width: 50%;
