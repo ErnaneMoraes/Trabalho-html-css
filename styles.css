@@ -6,14 +6,13 @@
 
    body {
     background-color: #8f9cb3;
-    justify-content: center;
-    align-items: center;
     margin: 0;
     height: 90vh;
     text-align: center;
 }  
 
     button{
+        margin: 0;
         width: 25%;
         height: 30px;        
         margin: 10px;
@@ -23,7 +22,7 @@
         font-weight: bold;     
         border: none;
         cursor: pointer;
-        transition: box-shadow 0.3s ease;
+        transition: box-shadow 0.3s ease;        
     }
 
     button:active {
@@ -54,39 +53,26 @@
         padding: 0px;
         border-radius: 10px;
         box-shadow: 0 0 10px #d74ea4;
-        text-align: center;
+        text-align: left;
         overflow: hidden;*/        
     }
+.center-box button{
+        text-align: center;
+    }
+    
+
+.imagem{
+    text-align: center;
+}
 
 .imagem img {    
     width: 70%;     
-    align-items: center;
     margin-top: 25px;
     margin-bottom: 25px;
-}
-
-.logo-orkut{
-    width: 40px;    
-}
-
-.header, .nav-header{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    padding: 0 10%;
-}
-
-.header{
-    background-color: aqua;
-    box-shadow: 0px 0px 10px #d74ea4;    
-    height: 3.5em;
-    top: 0;
-    position: fixed;    
-    display: flex;
-    width: 100%;
-}
+    }
 
 form {
+    text-align: center;
     margin: 0;
     padding: 10px;
 }
@@ -122,11 +108,11 @@ nav{
     padding: 5px;    
     border-radius: 10px;  
     font-weight: bold;  
+    justify-content: flex-start;
 }
 
 nav li{
-    display: inline-block;
-
+    display: inline-block;    
 }
 
 nav li a{
@@ -141,6 +127,7 @@ nav li a:hover{
     border-radius: 10px;  
     color: #fff;  
     padding: 5px;
+    transition: background-color 1s ease, transform 1s ease, box-shadow 1s ease;
 }
 
 .dropdown-menu {
