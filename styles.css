@@ -11,7 +11,11 @@
     text-align: center;
 }  
 
-    button{
+.div-botao{
+    text-align: center;
+}
+
+    .div-botao button {
         margin: 0;
         width: 25%;
         height: 30px;        
@@ -22,7 +26,7 @@
         font-weight: bold;     
         border: none;
         cursor: pointer;
-        transition: box-shadow 0.3s ease;        
+        transition: box-shadow 0.3s ease;               
     }
 
     button:active {
@@ -50,11 +54,10 @@
         max-width: 420px;
         min-height: 420px;
         background-color: #dce4f4;
-        padding: 0px;
         border-radius: 10px;
         box-shadow: 0 0 10px #d74ea4;
         text-align: left;
-        overflow: hidden;*/        
+        overflow: hidden;       
     }
 .center-box button{
         text-align: center;
@@ -135,6 +138,10 @@ nav li a:hover{
     background-color: #8f9cb3;
     display: none;
     border-radius: 10px;
+}
+
+.dropdown-menu a:hover {
+    background-color: #8f9cb3;
 }
 
 .dropdown-menu a {
