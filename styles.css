@@ -37,13 +37,18 @@
 
     .links {
         display: block;
-        padding: 15px;
+        padding:  15px;
         text-align: left;
+    }
+
+    .link1 {
+        padding: 5px;
     }
 
     .links a {
         display: block; 
         margin: 10px; 
+        display: inline;     
     }
 
     .center-box {
