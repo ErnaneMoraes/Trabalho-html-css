@@ -10,36 +10,39 @@
 </head>
 <body>
      <div class="center-box">
+        <nav>            
+            <ul>
+                <li class="dropdown">
+                    <a href="">Sobre</a>    
+                    <div class="dropdown-menu">
+                        <a href="">A empresa</a>
+                        <a href="">Ajuda</a>
+                    </div>
+                </li>            
+            </ul>
+        </nav>
         <div class="imagem">
             <img src="images/orkut-logo.png" alt="">
         </div>
 
         <form action="" method="get">
 
-            <div class="form-nome">
-                <label for="nome"></label>
-                <input type="text" id="nome" name="nome" placeholder="Usuário" >
-            </div>
-
-            <div class="form-senha">
-                <label for="senha"></label>
-                <input type="password" name="senha" placeholder="Senha" id="senha" required>
+            <div class="form-email">
+                <label for="email"></label>
+                <input type="email" id="email" name="email" placeholder="E-mail" >
             </div>
 
         </form>
-
-       <!-- <div class="checkbox">
-                <input type="checkbox" id="checkbox" name="checkbox">Lembrar-me
-        </div>-->
         
-        <button type="submit">Entrar</button>
+        <div class="div-botao">
+            <button type="submit">Recuperar senha</button>
+       </div>
 
         <div Class="links">
             <div class="link1">
-                <a href="#">Esqueci minha senha</a>    
-            </div>
-            <div class="link1">
-                <a href="index.html">Cadastrar-se</a>
+                <label for="link-home">
+                    <a href="index.html" name="link-home">Voltar ao login</a>    
+                </label>
             </div>
         </div>
 
